@@ -14,4 +14,5 @@ def introduction_with_language_optional(name, language)
   end
 end
 
-introduction_with_language_optional("James", "Python")
+language = nil
+introduction_with_language_optional("James", language)
